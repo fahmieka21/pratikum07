@@ -54,6 +54,9 @@ int main()
 
 ![img](https://github.com/fahmieka21/pratikum07/blob/master/Flowchart1.png)
 
+![img](https://github.com/fahmieka21/pratikum07/blob/master/Flowchart2.png)
+
 # Hasil nya
 ![img](https://github.com/fahmieka21/pratikum07/blob/master/hasil1.png)
+
 ![img](https://github.com/fahmieka21/pratikum07/blob/master/hasil2.png)

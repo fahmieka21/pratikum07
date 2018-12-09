@@ -1,27 +1,33 @@
 #include <iostream>
 
 using namespace std;
-int kali (int m, int n)
-{
-    int i,hasil=0;
-    for(i=1;i<=n;i++)
-        hasil+=m;
-    if (n<0)
-        {
-        return(-hasil);
-        }
-    else
-        {
-        return(hasil);
-        }
-}
+
+int operasi(int a, int b);
+
 int main()
 {
-    int a,b;
-    cout<<"Masukin Bilangan :";
-    cin>> a;
-    cout<<"Masukin Bilangan :";
-    cin>> b;
-    cout << "\n\nHasil Dari " << a <<" X "<< b <<" = "<<kali(a,b);
-    return 0;
+    int a, b;
+
+    cout << "Masukan Nilai A : ";
+    cin >> a;
+    cout << "Masukan Nilai B : ";
+    cin >> b;
+
+    operasi(a,b);
+
+}
+
+int operasi(int a, int b)
+{
+    cout << a << " x " << b << " = ";
+
+    for(int i=1; i<=b; i++)
+    {
+        cout << a;
+        if(i<b)
+        {
+            cout<<" + ";
+        }
+    }
+
 }
