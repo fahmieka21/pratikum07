@@ -54,9 +54,100 @@ int main()
 
 ![img](https://github.com/fahmieka21/pratikum07/blob/master/Flowchart1.png)
 
-![img](https://github.com/fahmieka21/pratikum07/blob/master/Flowchart2.png)
 
-# Hasil nya
+# Ini Hasil nya
+
 ![img](https://github.com/fahmieka21/pratikum07/blob/master/hasil1.png)
 
+
+
+
+# Latihan 2 (Program fungsi perkalian 2 buah bilangan bulat)
+
+```
+-Mendeklarasikan int operasi(int a, int b); sebagai inisialisasi integer
+-Mendeklarasikan int a, b; sebagai variable input 
+-Memasukka bilangan dengan kode :
+    cout << "Masukan Nilai A : ";
+    cin >> a;
+    cout << "Masukan Nilai B : ";
+    cin >> b;
+-Menghitung perkalian dengan kode :
+ cout << a << " x " << b << " = ";
+
+    for(int i=1; i<=b; i++)
+    {
+        cout << a;
+        if(i<b)
+        {
+            cout<<" + ";
+        }
+-Menampilkan hasil perkalian dua buah bilgan kelayar dengan kode :
+
+    int a, b;
+
+    cout << "Masukan Nilai A : ";
+    cin >> a;
+    cout << "Masukan Nilai B : ";
+    cin >> b;
+
+    operasi(a,b);
+
+}
+
+int operasi(int a, int b)
+{
+    cout << a << " x " << b << " = ";
+
+    for(int i=1; i<=b; i++)
+    {
+        cout << a;
+        if(i<b)
+        {
+
+
+-Berikut kode lengkapnya:
+
+#include <iostream>
+
+using namespace std;
+
+int operasi(int a, int b);
+
+int main()
+{
+    int a, b;
+
+    cout << "Masukan Nilai A : ";
+    cin >> a;
+    cout << "Masukan Nilai B : ";
+    cin >> b;
+
+    operasi(a,b);
+
+}
+
+int operasi(int a, int b)
+{
+    cout << a << " x " << b << " = ";
+
+    for(int i=1; i<=b; i++)
+    {
+        cout << a;
+        if(i<b)
+        {
+            cout<<" + ";
+        }
+    }
+
+}
+```
+
+# Berikut Flowchart
+
+![img](https://github.com/fahmieka21/pratikum07/blob/master/Flowchart2.png)
+
+# Ini Hasil nya
+
 ![img](https://github.com/fahmieka21/pratikum07/blob/master/hasil2.png)
+
